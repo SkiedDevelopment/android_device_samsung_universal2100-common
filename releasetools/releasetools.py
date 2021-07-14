@@ -42,7 +42,3 @@ def OTA_InstallEnd(info):
   PrintInfo(info, "/dev/block/by-name/vendor_boot")
   AddImage(info, "vendor_boot.img", "/dev/block/by-name/vendor_boot")
   return
-
-def FullOTA_InstallBegin(info):
-  AddImage(info, "super_empty.img", "/dev/block/by-name/super")
-  return
