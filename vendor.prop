@@ -80,6 +80,7 @@ ro.product_ship=true
 # Set csc support in OMX
 # If not set or set to 0, OMX will only use BT.601 colorspace.
 ro.vendor.cscsupported=1
+ro.surface_flinger.display_update_imminent_timeout_ms=50
 
 # Samsung hermesd props
 security.securehw.available=false
