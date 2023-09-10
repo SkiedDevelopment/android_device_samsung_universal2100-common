@@ -24,6 +24,9 @@ TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 # Inherit proprietary vendor configuration
 include vendor/samsung/universal2100-common/BoardConfigVendor.mk
 
+# Inherit Board Support Package
+include hardware/samsung_slsi-linaro/config/BoardConfig2100.mk
+
 # Platform
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := universal2100
